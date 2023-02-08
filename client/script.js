@@ -102,7 +102,7 @@ const handleSubmit = async (e) => {
 
     messageDiv.innerHTML = "Something went wrong";
 
-    alert(err)
+    alert("Something went wrong, probably you have exceeded the request rate limit per minute. Please Try again in 5 minutes.")
   }
 }
 
